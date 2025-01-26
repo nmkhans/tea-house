@@ -39,9 +39,9 @@
     <main>
       <!-- Banner Area -->
       <section class="container mx-auto px-5 py-[50px]">
-        <div class="flex items-center justify-between">
-          <div class="w-1/2">
-            <h2 class="text-7xl font-bold leading-[90px] mb-5">
+        <div class="flex flex-col md:flex-col lg:flex-row items-center justify-between">
+          <div class="w-full lg:w-1/2">
+            <h2 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[70px] md:leading-[80px] lg:leading-[90px] mb-5">
               It's good <br />
               tea time at The Tea House
             </h2>
@@ -58,15 +58,19 @@
               ></span>
             </button>
           </div>
-          <div class="w-1/2 relative mt-8">
+          <div class="w-full lg:w-1/2 relative mt-8">
             <img src="./images/banner.png" alt="Banner image" />
-            <div class="flex gap-x-3 shadow-lg w-[300px] p-5 rounded-lg items-center absolute bottom-0 left-5 bg-white">
+            <div
+              class="inline-flex gap-x-3 shadow-lg p-5 rounded-lg items-center absolute -bottom-5 left-0 md:bottom-3 md:left-22 lg:bottom-3 lg:left-22 bg-white"
+            >
               <div>
                 <img src="./images/star.png" alt="" />
               </div>
               <div>
                 <h4 class="font-bold text-2xl">5.00</h4>
-                <p class="text-[#777777] text-base">Trust Pilot Rating</p>
+                <p class="text-[#777777] text-base">
+                  Trust Pilot Ratings
+                </p>
               </div>
             </div>
           </div>
